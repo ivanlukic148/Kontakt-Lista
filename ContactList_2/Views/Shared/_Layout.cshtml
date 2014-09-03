@@ -1,0 +1,18 @@
+﻿<html>
+<head>
+    <title>Index</title>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular-resource.min.js"></script>
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrapTheme-sandstone.css" rel="stylesheet" />
+    <script src="~/Scripts/contacts-module.js"></script>
+    @RenderSection("JavaScriptInHead", required:false)
+</head>
+<body ng-app="contactsModule">
+    @RenderBody()
+</body>
+</html>
+

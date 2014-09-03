@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <div class="span10">
+        <div style="float:right">
+            <input type="text" />
+            <button class="btn btn-default" >Search</button>
+        </div>
+        <br />
+        <h2>My contacts</h2>
+        <table class="table table-condensed table-hover">
+            <tr>
+                <td><b>ID</b></td>
+                <td><b>Contact</b></td>
+            </tr>
+            <tr ng-repeat="contact in contacts">
+                <td>{{contact.id}}</td>
+                <td>{{contact.name}} {{contact.surname}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
